@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury SUVs Cars Gallery</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <h1 class="main-h1">Luxury SUVs Cars Gallery</h1>
+        <div class="gallery">
+            <!-- Row 1 -->
+            <div class="gallery-item" data-title="Toyota Land Cruiser" data-description="A reliable and powerful off-road SUV.">
+                <img src="Images/Img1.jpg" alt="Toyota Land Cruiser">
+            </div>
+            <div class="gallery-item" data-title="Toyota Prado" data-description="A luxurious 4x4 with advanced features.">
+                <img src="Images/Img2.jpg" alt="Toyota Prado">
+            </div>
+            <div class="gallery-item" data-title="Toyota Fortuner" data-description="A rugged SUV for all terrains.">
+                <img src="Images/Img3.jpg" alt="Toyota Fortuner">
+            </div>
+            <div class="gallery-item" data-title="Range Rover" data-description="A high-end SUV with supreme comfort.">
+                <img src="Images/Img4.jpeg" alt="Range Rover">
+            </div>
+            <div class="gallery-item" data-title="Lexus V8" data-description="Luxury meets performance in this masterpiece.">
+                <img src="Images/Img5.jpeg" alt="Lexus V8">
+            </div>
+            <!-- Row 2 -->
+            <div class="gallery-item" data-title="Nissan Petrol" data-description="Durable and powerful for any adventure.">
+                <img src="Images/Img8.jpg" alt="Nissan Petrol">
+            </div>
+            <div class="gallery-item" data-title="Tesla Cyber Truck" data-description="The future of electric SUVs.">
+                <img src="Images/Img9.jpg" alt="Tesla Cyber Truck">
+            </div>
+            <div class="gallery-item" data-title="Audi Q7" data-description="Precision engineering and luxury combined.">
+                <img src="Images/Img14.PNG" alt="Audi Q7">
+            </div>
+            <div class="gallery-item" data-title="Mercedes-AMG G Wagon" data-description="High performance and elegance.">
+                <img src="Images/Img13.PNG" alt="Mercedes-AMG G Wagon">
+            </div>
+            <div class="gallery-item" data-title="Lamborghini Urus" data-description="A thrilling blend of speed and style.">
+                <img src="Images/Img10.jpg" alt="Lamborghini Urus">
+            </div>
+            <div class="gallery-item" data-title="Mercedes Maybach" data-description="A thrilling blend of speed and style.">
+                <img src="Images/Img11.PNG" alt="Mercedes Maybach">
+            </div>
+            <div class="gallery-item" data-title="Rolls-Royce Cullinan" data-description="A thrilling blend of speed and style.">
+                <img src="Images/Img12.PNG" alt="Rolls-Royce Cullinan">
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Image Zoom -->
+    <div class="modal" id="imageModal">
+        <span class="close-btn" id="closeBtn">&times;</span>
+        <img class="modal-content" id="modalImage" alt="Gallery Image">
+        <div class="caption">
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
+    <script src="Script/script.js"></script>
+</body>
+</html>
